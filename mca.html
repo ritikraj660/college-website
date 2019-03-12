@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>MCA</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="stylesheet1.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+* {
+  box-sizing: border-box;
+}
+nav {
+  float: left;
+  width: 19%;
+  text-align:left;
+  height: auto; /* only for demonstration, should be removed */
+  padding: 20px;
+  
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+   box-shadow: -10px 5px 10px #808080;
+  float: right;
+  padding: 20px;
+  width: 80%;
+  height: auto; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+</style>
+<body>
+
+<!-- Page content -->
+<div  style="max-width:2000px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="home.jpg" style="width:100%">
+  </div> 
+</div>
+
+
+
+<!-- Navbar -->
+<header>
+<div >
+  <div class="w3-bar w3-indigo w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large">Home</a>
+    <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hide-small">About us</a>
+    
+	<!--<a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">COURSES</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">RESEARCH</a>
+	<a href="#login" class="w3-bar-item w3-button w3-padding-large w3-hide-small">LOGIN</a>
+	-->
+	 <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="Academic"> Academic <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content  w3-black w3-bar-block w3-card-4">
+        <a href="admission.html" class="w3-bar-item w3-button">Admission</a>
+        <a href="program.html" class="w3-bar-item w3-button">Programs</a>
+        <a href="syllabus.html" class="w3-bar-item w3-button">Syllabus</a>
+      </div>
+	 </div>
+	 <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="Research"> Research <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content  w3-black w3-bar-block w3-card-4">
+        <a href="r_areas.html" class="w3-bar-item w3-button">Research Areas</a>
+        <a href="f_project.html" class="w3-bar-item w3-button">Funded Projects</a>
+        <a href="publication.html" class="w3-bar-item w3-button">Publications</a>
+		<a href="linkages.html" class="w3-bar-item w3-button">Linkages</a>
+      </div>
+	 </div>
+     <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="People"> People <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content  w3-black w3-bar-block w3-card-4">
+        <a href="faculty.html" class="w3-bar-item w3-button">Faculty</a>
+		<a href="visitor.html" class="w3-bar-item w3-button">Visitors</a>
+        <a href="students.html" class="w3-bar-item w3-button">Students</a>
+        <a href="staff.html" class="w3-bar-item w3-button">Staff</a>
+		<a href="alumni.html" class="w3-bar-item w3-button">Alumni</a>
+      </div>
+	 </div>	 
+	  <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="Activitis"> Activitis <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content  w3-black w3-bar-block w3-card-4">
+        <a href="latest_news.html" class="w3-bar-item w3-button">Latest News</a>
+        <a href="events.html" class="w3-bar-item w3-button">Events</a>
+      </div>
+	 </div>
+	 
+	 <a href="placement.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Placement</a>
+	 <a href="contactus.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Contact us</a>
+    
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) --><!-- End Page Content -->
+</div>
+</header>
+<section>
+  <nav>
+    <ul>
+	   <li><b><h3>Addmission</h3></b></li>
+	  
+	</ul>
+    <ul>
+      <li><a href="phd.html" class=" w3-button">Ph.D</a></li>
+      <li><a href="imtech.html" class=" w3-button">Integrated M.Tech</a></li>
+      <li><a href="mtech.html" class="w3-button">M.Tech</a></li>
+	  <li><a href="mca.html" class="w3-button">MCA</a></li>
+    </ul>
+  </nav>
+ <div> 
+  <article>
+<h2>MCA</h2>
+		
+		  		<p align="justify">Programme aims to prepare graduates in all the major areas of computer science, relevant aspects of mathematics and management so that they can take up both technical and managerial positions in industry.  The training is rigorous and involves five semesters of course work and one semester of project work.  MCA students of earlier batches have been offered internships  at companies such as IBM, GE, Microsoft, CA, CMC, Honeywell etc. and are thus  provided an  opportunity to learn in  industry environment during their last semester.</p>
+<p align="justify">
+<font color="#550000" size="+1">Intake:</font>
+60
+ <br/>
+&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;.
+<br><font color="#550000" size="+1">Minimum Qualifications for Admission:</font> "NIMCET 2018 score in order of merit, will be the only criteria for admission". Mathematics as a main subject and studied as full papers in Higher Secondary (10 + 2) level is a mandatory prerequisite.  First Class Bachelor's degree with at least 60% marks in aggregate, in any discipline.
+ </p>
+<p align="justify"><font color="000" size="+1">Admission Process :</font><br/> MCA admissions are done based on the scores obtained in NIMCET (National Institute of Technology Master of Computer Applications Common Entrance Test) 2018 only. NIMCET 2018 scores, in order of merit, will be the basis for admission which is done by the counselling at the University of Hyderabad. Interested candidates need to apply to the University of Hyderabad and separately need to provide their NIMCET 2018 scores (when available) as per the information provided by Controller of Examination, University of Hyderabad.
+<!--Admission are based on a National level MCA entrance Examination NIMCET a National Level Test conducted by NITs as an alternate to the Schools' own MCA entrance examination from the year 2017-18 onwards. 
+<ul type="square">
+The concerned applicant has to satisfy the following at the time of admission counselling:
+ <br>(i) Minimum eligibility criteria for admission to MCA programme of the University of Hyderabad and </br>
+<br>(ii) Submit valid NIMCET Score Card.</br>
+<br> A merit list will be prepared of qualified candidates satisfying the above (i) and (ii). Admission will be based on this list.</br> </ul> </p> -->
+ 
+<!-- <p align="justify"><font color="000" size="+1">Written Test Syllabus :</font><br/>
+The written test consists of objective type questions in two parts with equal weightage.  Part ‘A’ deals with general mental ability (consisting of items on reasoning, analysis, comprehension and synthesis).  Part ‘B’ deals with mathematical topics such as Sets, Relations, Integration, Differentiation, Analytical Geometry, Trigonometry, Vectors, Matrices, Determinants, Differential Equations, Elementary Probability and Statistics, Number Systems, Data Representation, Algorithms and Flowcharts. Part A and Part B are for 50 marks each for a total of 100 marks. Part A consists of 25 objective type questions each for 2 marks. Part B consists of 50 objective type questions each for one mark. 
+<!--<ul type="square">
+The concerned applicant has to satisfy the following at the time of admission counselling:
+ <br>(i) Minimum eligibility criteria for admission to MCA programme of the University of Hyderabad and </br>
+<br>(ii) Submit valid NIMCET Score Card.</br>
+<br> A merit list will be prepared of qualified candidates satisfying the above (i) and (ii). Admission will be based on this list.</br> </ul> </p>
+ <!-- 
+<br/><br/><font color="000" size="+1">Written Test Syllabus: :</font><br/>
+ MCA Program. This course requires a prerequisite of full papers in Mathematics at least at the plus two level. The Admission is based on a written test conducted by the University. The written test consists of objective  type questions in two parts with equal weightage.  Part &lsquo;A&rsquo; deals with general mental ability (consisting of items on reasoning, analysis, comprehension and synthesis).  Part &lsquo;B&rsquo; deals with mathematical topics such as Sets, Relations, Integration, Differentiation, Analytical Geometry, Trigonometry, Vectors, Matrices, Determinants, Differential Equations, Elementary Probability and Statistics, Number Systems, Data Representation, Algorithms and Flowcharts. Part A and Part B are for 50 marks each for a total of 100 marks. Part A consists of 25 objective type questions each for 2 marks. Part B consists of 50 objective type questions each for one mark. 
+ <br/> --><p align="justify"><font color="000" size="+1">Foreign Candidates:</font><br/>
+Foreign nationals seeking admission in MCA programme should have the required minimum qualifications. Candidates should have ability to communicate in English and should submit a supportive document with  a good score in TOEFL/IELTS at the time of admission.
+Please also read Section on Admission of Foreign Nationals in the Prospectus.<br/>
+
+<br/>
+<!--<font color="#550000" size="+1">Notification of shortlisted candidates for admission couseling : </font>
+<br/><br/>
+<font color="#550000" size="+1">Admission Counseling :</font>To be Announced for 2017-18.  
+<br/>
+</p> 
+		
+		   <br/>-->
+           
+			</div><!-- guts end here-->
+        
+	
+  </article>
+   </div>
+ 
+</section>
+
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">RITIK RAJ</a></p>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>

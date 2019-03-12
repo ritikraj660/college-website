@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>M.Tech</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="stylesheet1.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+* {
+  box-sizing: border-box;
+}
+nav {
+  float: left;
+  width: 19%;
+  text-align:left;
+  height: 1150px; /* only for demonstration, should be removed */
+  padding: 20px;
+  
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+   box-shadow: -10px 5px 10px #808080;
+  float: right;
+  padding: 20px;
+  width: 80%;
+  height: auto; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+</style>
+<body>
+
+<!-- Page content -->
+<div  style="max-width:2000px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="home.jpg" style="width:100%">
+  </div> 
+</div>
+
+
+
+<!-- Navbar -->
+<header>
+<div >
+  <div class="w3-bar w3-indigo w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large">Home</a>
+    <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hide-small">About us</a>
+    
+	<!--<a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">COURSES</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">RESEARCH</a>
+	<a href="#login" class="w3-bar-item w3-button w3-padding-large w3-hide-small">LOGIN</a>
+	-->
+	 <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="Academic"> Academic <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content  w3-black w3-bar-block w3-card-4">
+        <a href="admission.html" class="w3-bar-item w3-button">Admission</a>
+        <a href="program.html" class="w3-bar-item w3-button">Programs</a>
+        <a href="syllabus.html" class="w3-bar-item w3-button">Syllabus</a>
+      </div>
+	 </div>
+	 <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="Research"> Research <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content  w3-black w3-bar-block w3-card-4">
+        <a href="r_areas.html" class="w3-bar-item w3-button">Research Areas</a>
+        <a href="f_project.html" class="w3-bar-item w3-button">Funded Projects</a>
+        <a href="publication.html" class="w3-bar-item w3-button">Publications</a>
+		<a href="linkages.html" class="w3-bar-item w3-button">Linkages</a>
+      </div>
+	 </div>
+     <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="People"> People <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content  w3-black w3-bar-block w3-card-4">
+        <a href="faculty.html" class="w3-bar-item w3-button">Faculty</a>
+		<a href="visitor.html" class="w3-bar-item w3-button">Visitors</a>
+        <a href="students.html" class="w3-bar-item w3-button">Students</a>
+        <a href="staff.html" class="w3-bar-item w3-button">Staff</a>
+		<a href="alumni.html" class="w3-bar-item w3-button">Alumni</a>
+      </div>
+	 </div>	 
+	  <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="Activitis"> Activitis <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content  w3-black w3-bar-block w3-card-4">
+        <a href="latest_news.html" class="w3-bar-item w3-button">Latest News</a>
+        <a href="events.html" class="w3-bar-item w3-button">Events</a>
+      </div>
+	 </div>
+	 
+	 <a href="placement.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Placement</a>
+	 <a href="contactus.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Contact us</a>
+    
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) --><!-- End Page Content -->
+</div>
+</header>
+<section>
+  <nav>
+    <ul>
+	   <li><b><h3>Addmission</h3></b></li>
+	  
+	</ul>
+    <ul>
+      <li><a href="phd.html" class=" w3-button">Ph.D</a></li>
+      <li><a href="imtech.html" class=" w3-button">Integrated M.Tech</a></li>
+      <li><a href="mtech.html" class="w3-button">M.Tech</a></li>
+	  <li><a href="mca.html" class="w3-button">MCA</a></li>
+    </ul>
+  </nav>
+ <div> 
+  <article>
+   	<div id="guts">
+		<!--Enter Your Content Here-->
+<h2>Master of Technology (M.Tech)</h2>
+		
+<p align="justify"> M.Tech is meant for graduates in engineering disciplines and postgraduates in related sciences. Three different streams of M.Tech. are offered by the school &ndash; M.Tech(CS), M.Tech(AI) and M.Tech(IT) with specialization in Banking Technology and Information Security. Admissions are open for industry sponsored and foreign candidates also. These are supernumerary.
+<br/><br/><font color="000" size="+2">M.Tech. (Computer Science) </font><br/> 
+This programme offers  core courses of  computer science like Operating Systems, Computer Architecture, Algorithms, Software Engineering at an advanced level. Specialized electives of faculty research interest are offered as electives. The course work develops scientific and mathematical approach to computing. Students can also specialize in one of the three streams, namely &quot;High Performance Computing&quot;,&quot;Systems&quot; & &quot;Security&quot; based on courses taken and the dissertation in these areas.<br/><br/><font color="000" size="+2">M.Tech. (Artificial Intelligence) </font><br/>
+This programme is meant for students already well equipped in computing sciences and  imparts advanced training in all the major areas of artificial intelligence and other emerging technologies, such as Knowledge Representation and Reasoning, Human Computer Interaction, Machine Learning, Computational Intelligence etc. 
+<br/><br/><font color="000" size="+2">M.Tech. (Information Technology) </font><br/> 
+This programme offers specialization in Banking Technology and Information Security and aims at imparting in-depth knowledge and state-of- art expertise to the students through innovative learning supported by high calibre research and technology leadership to create a pool of responsible and resourceful IT professionals, in particular, for the banking and finance sector. This course is offered in collaboration with IDRBT, an RBI institute.</p>
+
+<p align="justify">
+<font color="#550000" size="+1">Intake:</font>
+Computer Science : 45+5*<br/> 
+&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Artificial Intelligence : 30+5*<br/>
+&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Information Technology : 30+5*<br/>
+&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;*&nbsp; Admissions are open for industry sponsored and foreign candidates also. These are all supernumerary seats <br/>
+<br>
+<font color="#550000" size="+1">Minimum Qualifications for Admission:</font>
+With a minimum of 60% marks in the Bachelor's degree examination in
+Engineering/Technology (B.E./B.Tech);
+OR
+in MCA or M.Sc in (Computer Science/Information
+Sciences/Electronics).
+<br>GATE scores in Computer Science and Information Technology and in order of merit, will be the only criteria for admission. (No entrance examination or any interview will be conducted). </br>
+ </p>
+<p><!--<br/><br/>
+<font color="#550000" size="+1">Notification of shortlisted candidates for admission couseling : </font>20.6.2015
+<br/><br/> -->
+  <!--
+<font color="#550000" size="+1">Admission Counseling :</font> 06.7.2015 , 02.00 p.m.  -->
+  <br/>
+  <font color="000" size="+1">Admission Process :</font><br/>
+  <b>General Admission Information for M.Tech. Programmes :</b>Admission to programmes in Computer Science, Artificial Intelligence and Information Technology courses is through centralized counselling by CCMT (ccmt.nic.in) and is based on valid GATE scores in Computer Science and Information Technology only.  Admission and tuition fees for all the three M.Tech. programmes are uniform. 
+  
+  <br/><br/>
+  <font color="000" size="+1">Sponsored candidates :</font><br/>
+  Five sponsored seats are available for admission into each stream of M.Tech CS, AI and IT. Sponsored candidates seeking admission in the M.Tech. (CS/AI/IT)  programmes are exempted from the GATE qualification. Candidates with required basic qualifications would be selected through interviews. Employees with a minimum 2 years of work experience in IT companies registered with STPI or NASSCOM or Central Government Organisations can apply for M.Tech. 
+  admission in CS/AI. For M.Tech (IT) those working in Banks/Financial institutions with a minimum of 3 years work experience will be considered.   A candidate seeking admission in this category into M.Tech. (CS/AI/IT) must submit (along with application) the organization's willingness to pay a sponsorship amount of One Lakh Rupees per candidate (one time) to the development fund of the school.  After admission, candidates are required to pay the sponsorship amount and also the usual tuition, admission  and other fees as prescribed by the University for other students from time to time. 
+  <!--<br/><span><strong>The last date for receipt of applications:  07/04/2014</strong></span><br/>
+	<span><strong>Announcement of results: 26/05/2014.</strong></span><br/> -->
+  
+  <br/><br/>
+  <font color="000" size="+1">Foreign Candidates :</font><br/> 
+  Foreign nationals seeking admission to M.Tech. programmes should have the required qualification with background knowledge in Mathematics, Algorithms, Computer Programming etc. Candidates should have ability to communicate in English and should submit a supportive document with  a good score in TOEFL/IELTS at the time of admission. In addition, students should submit a letter of reference which supports their claims to the background knowledge and ability to communicate in English.Please also read section on Admission onf Foreign Nationals in the Prospectus.</p>
+<p> <!--	<br/><strong>The last date for receipt of applications: 14/04/2014.</strong><br/>-->
+  <!-- <strong>Announcement of results: 26/05/2014</strong>. <br/>-->
+  </p> 
+  <font color="000" size="+1">M.Tech Fellowships/Scholarships: </font> Students admitted into M.Tech CS/AI/IT, will be eligible for AICTE fellowships as and when AICTE processes DBT scheme (No. of fellowships are restricted to AICTE approved intake only).
+</p>
+
+<!-- Your Content ENd  Here-->
+			</div><!-- guts end here-->
+        
+
+  </article>
+   </div>
+ 
+</section>
+
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">RITIK RAJ</a></p>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>

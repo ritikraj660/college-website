@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Home</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="stylesheet1.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+* {
+  box-sizing: border-box;
+}
+
+div.ex1 {
+  width : 95%;
+  height : 500px;
+  overflow-y: auto;
+}
+
+nav {
+  float: right;
+  width: 30%;
+  text-align:left;
+  height: auto; /* only for demonstration, should be removed */
+  padding: 20px;
+  
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+   box-shadow: 10px 5px 10px #808080;
+  float: left;
+  padding: 20px;
+  width: 68%;
+ 
+  height: 400; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+form{
+ width : 400px;
+ box-shadow: 10px 5px 10px #808080;
+}
+}
+
+</style>
+<body>
+
+<!-- Page content -->
+<div  style="max-width:2000px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="home.jpg" style="width:100%">
+  </div> 
+</div>
+
+
+
+<!-- Navbar -->
+<header>
+<div >
+  <div class="w3-bar w3-indigo w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large">Home</a>
+    
+	<!--<a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">COURSES</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">RESEARCH</a>
+	<a href="#login" class="w3-bar-item w3-button w3-padding-large w3-hide-small">LOGIN</a>
+	-->
+	 <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="Academic"> Academic <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content  w3-black w3-bar-block w3-card-4">
+        <a href="admission.html" class="w3-bar-item w3-button">Admission</a>
+        <a href="program.html" class="w3-bar-item w3-button">Programs</a>
+        <a href="syllabus.html" class="w3-bar-item w3-button">Syllabus</a>
+      </div>
+	 </div>
+	 <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="Research"> Research <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content  w3-black w3-bar-block w3-card-4">
+        <a href="r_areas.html" class="w3-bar-item w3-button">Research Areas</a>
+        <a href="f_project.html" class="w3-bar-item w3-button">Funded Projects</a>
+        <a href="publication.html" class="w3-bar-item w3-button">Publications</a>
+		<a href="linkages.html" class="w3-bar-item w3-button">Linkages</a>
+      </div>
+	 </div>
+     <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="People"> People <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content  w3-black w3-bar-block w3-card-4">
+        <a href="faculty.html" class="w3-bar-item w3-button">Faculty</a>
+		<a href="visitor.html" class="w3-bar-item w3-button">Visitors</a>
+        <a href="students.html" class="w3-bar-item w3-button">Students</a>
+        <a href="staff.html" class="w3-bar-item w3-button">Staff</a>
+		<a href="alumni.html" class="w3-bar-item w3-button">Alumni</a>
+      </div>
+	 </div>	 
+	  <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="Activitis"> Activitis <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content  w3-black w3-bar-block w3-card-4">
+        <a href="latest_news.html" class="w3-bar-item w3-button">Latest News</a>
+        <a href="events.html" class="w3-bar-item w3-button">Events</a>
+      </div>
+	 </div>
+	 
+	 <a href="placement.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Placement</a>
+	 <a href="contactus.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Contact us</a>
+    
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) --><!-- End Page Content -->
+</div>
+</header>
+<section>
+  <nav>
+    <div class="box1">Members Area</div>
+    <div>
+	   		<form> 
+    <fieldset >
+       <table>
+           <tr><td><input type="txt" placeholder="username" name="username" maxlength="15"><br><br></td></tr> 
+           <tr><td><input type="password" placeholder="Password" name="password" maxlength="15"><br><br></td></tr>
+           <tr><td>   <input type="submit" value="Login" >   </td></tr>
+      </table>		  
+    </fieldset>	  
+    </form>				
+	</div>
+  </nav>
+ <div> 
+  <article>
+     <div >
+
+ 
+	 </div>
+    <div class="box">
+      About us
+	</div>
+	
+    <div class="ex1">
+	 <p >School of Computer and Information Sciences (SCIS) offers high quality 
+    postgraduate teaching and research in all major areas of Computer and Information Sciences, 
+    Artificial Intelligence, and, Banking Technology and Information Security. Computer Science 
+    programme in University of Hyderabad was started in 1983 under the School of Mathematics and 
+    Computer/Information Sciences.  Computer and Information Sciences was carved out as a separate 
+    Department under the School of Mathematics and Computer/Information Sciences on March 23, 1993. 
+    This department became School of Computer and Information Sciences on January 22, 2013.
+	</p>
+	
+    <p >SCIS epitomizes excellence in all major functions associated with higher
+     learning such as teaching, research, student development and curriculum planning. The strengths
+     of the School are its quality faculty, innovative and flexible curricula with their unique focus 
+     on post-graduate education, state-of-the-art research with a remarkably high number of 
+     Ph.D scholars - both ongoing and recently graduated, and highly open and transparent policies that 
+     foster a healthy student-faculty interaction. SCIS always stood for innovation and leadership in 
+     curriculum planning - having one of the oldest (from 1983) and even now one of the best MCA programmes;
+     boldly proposing and introducing the M. Tech programme in Artificial Intelligence in 1986 to attract 
+     the small but growing number of undergraduates in computer science; and, in 2002, introducing the 
+     unique M. Tech in Information Technology (with specialization in Banking Technology and Information 
+     Security) in collaboration with IDRBT (Institute for Development and Research in Banking Technology,
+     a sister Institute of RBI) aimed at bridging the shortfall of trained computer professionals in 
+     banking and finance industries.
+	 </P>
+	 
+     <p>With nearly 93% of the faculty possessing a Ph.D and considerable experience 
+	 in teaching in conjunction with a relatively young average age of around 45 years, the School rightfully
+	 boasts of a faculty profile that is young, vibrant and matching the very best in national and international
+	 standards. Some of the faculty are Fellows, Senior Members of prestigious international and national
+	 professional societies such as IEEE, TAS, APAS and IETE, and are on various Boards of Studies, Governing Boards,
+	 Standing Committees and Editorial Board of Journals. The faculty have won many awards and have been invited
+	 to reputed international universities and other institutions. It is reflection of SCIS creative atmosphere
+	 and academic credentials that it has been able to attract and retain such a faculty.</p>
+     
+	 <p >The current research areas in the School include Computer Networks and Distributed 
+	 Processing, Data Base Management Systems, Software Engineering, Computer and Network Security, Mobile Computing,
+	 Logic Decision Support Systems, Enterprise Resource Planning, E-Commerce, Geographical Information Systems, 
+	 Data Warehousing and Data Mining, Bioinformatics, Artificial Intelligence, Machine Learning, Cognition, Natural 
+	 Language Engineering, Speech Processing, Computer Forensics, Information Security, Image Processing, 
+	 Heuristics and Meta-heuristics, Cryptology, Pattern Recognition, Vision, parallel, Grid and Cloud Computing.
+	 The School has a very vibrant Ph.D programme with more than 50 registered students as on date and more than
+	 100 scholars have completed their research till now. As the School always has a high priority for research,
+	 it strongly encourages fresh and brilliant students to participate in the above exciting research programmes
+	 as full-time/part-time Ph.D students. School also offers Visvesvaraya Ph.D Fellowships (sponsored by DeitY)
+	 for supporting brilliant Ph.D students. The School is also recognized as an AICTE Minor QIP Centre for Ph.D Programme.</p>
+     
+     <p >The School maintains active contacts with both industry and research labs, and participates in 
+	 developing state-of-art computing systems. Department of Science and Technology (DST), Govt. of India has recognized
+	 the School's research contribution by funding it under FIST-I programme, UGC under SAP DRS-I, DST-PURSE-I and II etc.
+	 The School has signed MoUs with Prof.C.R.Rao AIMSCS Institute, IDRBT, IIIT Hyderabad, ISI Calcutta, Mahasarakham University 
+	 (Thailand), Universite de Bretagne-Sud (France) to promote research, internship and teaching Programmes. The School also offers
+	 elective courses in collaboration with Hitachi Consulting on Service-Oriented Architecture and with IBM ISL on Big Data and
+	 Virtualization. The School currently executes several research projects (funded by MIT, UGC, ISRO, DRDO, DLRL, MHA, DST, INCOIS etc.) 
+	 on FAE, Content-Based Image Retrieval, Wireless Sensor Networks, Speech and Natural Language Processing, Grid Computing, Cryptography
+	 Neural Networks, Formal Methods in Software Engineering, Business Process Re-engineering, Forensic Document Analysis, System Security and Grid Middleware etc.</p>
+	
+     <p>The strength in research drives our curricula which are carefully designed mixes of core courses and electives. 
+	 The core courses impart a rigorous foundation so that every student is technically competent, while the varied choice of electives allows
+	 individuality for students to keep abreast of the latest technological innovations and specialize in their areas of interest. Moreover, students 
+	 are encouraged by the design of the curriculum itself to select inter-disciplinary courses and gain a broad-based perspective of the field
+	 . The curriculum is continually monitored and updated as and when necessary. A major revision, designed and proposed during the last year,
+	 has been approved and is intended to handle the greatly increased undergraduates in Computer Science and Information Technology as well as
+	 the projected shortfalls in academia and industry. SCIS adopted the Credit and Grading system for evaluation and also has a system for collecting
+	 and analyzing student feedback on course structure, content, delivery and evaluation. There is complete transparency in evaluation with the answer
+	 scripts discussed with the students to allow them to rectify their mistakes and improve their performance. Students also feel comfortable to
+	 discuss any academic or other matters with the faculty.
+     </p>
+     
+	 <p >The teaching methods further reflect our pursuit of excellence. Classrooms are equipped with LCD projectors for courses 
+	 that benefit from the use of live demonstrations and computer presentations to blackboards for those that require greater flexibility in pace
+	 and structure of lecture delivery. Web-based materials and assignments are also used and several classes have been experimentally delivered
+	 using locally developed electronic course content and delivery tools. Our laboratories also reflect the unique dichotomy of our curricula with 
+	 general-purpose ones for core subjects and several specialized ones such as networking lab, speech processing lab, computational intelligence lab, 
+	 embedded systems lab and software engineering lab for the newest electives. Access to such laboratories is provided to students and faculty on 24/7/365 basis.
+     </p>
+	 
+	 <p>Students come through a rigorous admission process and leave with an all-round experience of quality education not bound by the 
+	 conventions of dated syllabi and evaluation processes that emphasize rote learning. Apart from faculty and research scholars, M.Tech and MCA students
+	 also participate in exciting research which sharpens their problem-solving and analytical skills, thus, giving them a competitive edge over their
+	 counterparts. In addition, students come from all over the country and the School is beginning to attract the attention of international students.
+	 The diversity of the student community and the technical strength of the different programmes are recognized by many distinguished multi-national 
+	 and other high-end companies that find our students technically superior with excellent problem-solving skills and great cultural awareness.
+     </p>
+
+     <p >The unique combination of quality teaching of core concepts and cutting edge electives by excellent faculty, exposure to 
+	 the latest technologies and research leading to publications in major journals/conferences and accessibility to high-end computing facilities 
+	 including supercomputers in a completely open informal atmosphere make SCIS a torch-bearer for postgraduate education in computer science in India.
+	 </p>
+     </div>
+  </article>
+   </div>
+ 
+</section>
+
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">RITIK RAJ</a></p>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
